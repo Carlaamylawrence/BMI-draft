@@ -7,7 +7,7 @@ function calculateBMI() {
   if (height === "") result.innerHTML = "Provide a valid Height!";
   else if (weight === "") result.innerHTML = "Provide a valid Weight!";
   else {
-    let bmi = (weight / ((height * height) / 10000)).toFixed(2);
+    let bmi = parseInt(weight / ((height * height) / 10000));
     result.innerHTML = "Your BMI is " + bmi;
   }
 }
