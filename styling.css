@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.form {
+  padding: 10pt;
+}
+#result {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  margin-top: 20pt;
+}
+
+#answercelsius {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  margin-top: 20pt;
+}
+
+#answerfahrenheit {
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  margin-top: 20pt;
+}
