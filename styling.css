@@ -25,3 +25,7 @@ h1 {
 button {
   font-size: 15pt;
 }
+
+#result {
+  font-size: 2rem;
+}
